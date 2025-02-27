@@ -20,7 +20,6 @@ class _SplashViewBodyState extends State<SplashViewBody> with SingleTickerProvid
   void initState() {
     super.initState();
     initSlideAnimation();
-    
     navigateToHome();
   }
 
