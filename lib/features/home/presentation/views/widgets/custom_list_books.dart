@@ -9,9 +9,13 @@ class ListBooksItems extends StatelessWidget {
     return SizedBox(
       height: MediaQuery.of(context).size.height * .3,
       child: ListView.builder(
+        padding: EdgeInsets.zero,
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return CustomListItem();
+          return Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 10.0),
+            child: CustomListItem(),
+          );
         },
       ),
     );
