@@ -32,16 +32,20 @@ class BestSellerListView extends StatelessWidget {
                 Text(
                   'Harry Potter and the Goblet of Fire',
                   style: Styles.titleLarge20,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
                 ),
                 Text('J.K. Rowling', style: Styles.titleNormal16),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('19.99 €', style: Styles.titleLarge20),
-                    SizedBox(width: 66),
+                    Spacer(),
                     Icon(Icons.star, color: Colors.amber),
+                    SizedBox(width: 6.3),
                     Text('4.8  ', style: Styles.titleMedium18),
-                    Text('(2345)', style: Styles.titleMedium18),
+                    SizedBox(width: 5),
+                    Text('(2345)', style: Styles.titleMedium18.copyWith(color: Colors.grey)),
                   ],
                 ),
               ],

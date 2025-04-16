@@ -80,7 +80,7 @@ flutter:
 fonts:
   - family: Playfair
     fonts:
-      - asset: assets/fonts/Playfair.ttf
+      - asset: assets/fonts/PlayfairDisplay-Italic.ttf
 
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
