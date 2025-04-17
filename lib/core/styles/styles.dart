@@ -12,6 +12,11 @@ abstract class Styles {
   );
   static const titleLarge20 = TextStyle(
       fontSize: 20,
+      fontWeight: FontWeight.w600,
+      fontFamily: kPlayFair
+  );
+  static const titleLarge30 = TextStyle(
+      fontSize: 30,
       fontWeight: FontWeight.bold,
       fontFamily: kPlayFair
   );
